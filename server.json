@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "music.audora/audora",
+  "title": "Audora",
+  "description": "Fills in an artist's Audora profile, tracks, albums, credits and release drafts.",
+  "version": "0.1.0",
+  "websiteUrl": "https://audora.music/ai-assistant/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://audora.music/mcp"
+    }
+  ]
+}
